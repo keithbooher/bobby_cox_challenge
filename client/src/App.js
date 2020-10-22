@@ -139,7 +139,7 @@ function App() {
         {records.map((record, index) => {
           return (
             <tr key={index}>
-              <td>{index}</td>
+              <td>{index + 1}</td>
               <td>{record.location.x},{record.location.y}</td>
               <td>{record.action}</td>
               <td>{record.dirtCollected}</td>
