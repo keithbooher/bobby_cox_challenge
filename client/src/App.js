@@ -122,7 +122,7 @@ function App() {
 
       {/* invisible table to hold roomba */}
       <h1>The Room</h1>
-      <table style={{ width: "100%", border: "solid 1px white" }}>
+      <table style={{ width: "100%", border: "solid 1px white", maxWidth: "350px" }}>
         {rowsNColumns(inputData.roomDimensions, records[records.length - 1].location)}
       </table>
 
